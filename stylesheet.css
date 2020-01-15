@@ -4,7 +4,12 @@ body {
   line-height: 1.8;
   color: #f5f6f7;
 }
-p {font-size: 16px;}
+p {
+  font-size: 20px;
+  font-family: 'Crete Round', serif;
+}
+
+
 .margin {margin-bottom: 45px;}
 .bg-1 {
   background-color: white; /* Green */
@@ -32,8 +37,10 @@ p {font-size: 16px;}
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 1em;
   letter-spacing: 5px;
+  color: white;
+
 }
 .navbar-nav  li a:hover {
   color: #1abc9c !important;
@@ -43,6 +50,7 @@ h3 {
   color: black;
   font-size: 5em;
   font-family: 'Special Elite', cursive;
+  padding-top: 40px;
 
 }
 h4 {
@@ -50,4 +58,10 @@ h4 {
   padding-top: 70px;
   font-family: 'Satisfy', cursive;
   font-size: 3em;
+}
+
+h5 {
+  color: white;
+  font-size: 3em;
+  font-family: 'Special Elite', cursive;
 }
